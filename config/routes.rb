@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/About'
+
   resources :topics
   resources :topics do
     member do
